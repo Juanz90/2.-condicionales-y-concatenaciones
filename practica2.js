@@ -5,7 +5,7 @@ De lo contrario, muestra "¡Buena semana!".
 */
 let diaSemana = prompt ('¿Qué día de la semana es?');
 
-if (diaSemana == 'Sábado'+'sábado'+'Domingo'+'domingo') {
+if (diaSemana == 'Sábado'||'sábado'||'Domingo'||'domingo') {
     alert ('¡Buen fin de semana!');
 }
 else {
